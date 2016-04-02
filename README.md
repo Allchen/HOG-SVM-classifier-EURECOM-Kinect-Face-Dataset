@@ -8,7 +8,7 @@ Only neutral images are used for training, the remaining ones are kept for testi
 
 ## Current State
 
-Default classifier accuracy provided, no parameter tuning. Model is saved in a XML
+Dense grid performed between C and Gamma in a range of 10^-15 to 10^15. Saves the best model in a .XML file.
 
 Note: OpenCV 3.1 with extra_modules is used (Boost lib is used to list all files in a directory).
 
