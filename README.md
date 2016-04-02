@@ -2,7 +2,7 @@
 
 Simple Project for training a SVM with parameter tuning in Kinect Face Depth images of Eurecom Dataset, using HOG as a feature extractor.
 
-All depth images have been cropped (using the keypoints provided by the databse) and resized 96x96 and normalized. 
+All depth images have been cropped (using the keypoints provided by the databse), resized to 96x96 and normalized. The resulting images have been saved in the same directory with the same name as the originals.
 
 Only neutral images are used for training, the remaining ones are kept for testing. 
 
