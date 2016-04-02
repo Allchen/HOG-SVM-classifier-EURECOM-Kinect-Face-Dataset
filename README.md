@@ -10,6 +10,6 @@ Only neutral images are used for training, the remaining ones are kept for testi
 
 Default classifier accuracy provided, no parameter tuning. Model is saved in a XML
 
-Note: OpenCV 3.1 with extra_modules is used.
+Note: OpenCV 3.1 with extra_modules is used (Boost lib is used to list all files in a directory).
 
 
