@@ -145,7 +145,6 @@ int main(){
 			current_gamma = (float) pow(10, j);
 			svm->setC(current_C);
 			svm->setGamma(current_gamma);
-			svm->train(trainingDataMat, ROW_SAMPLE, labelsMat);
 			
 
 			// Train Model
